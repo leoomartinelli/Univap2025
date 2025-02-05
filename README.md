@@ -10,8 +10,8 @@ Este repositório serve como um portfólio dos meus trabalhos acadêmicos, abord
 🔹 **Exercícios** - Listagem de exercícios realizados para aprendizado e prática.  
 
 ## 🛠️ Tecnologias  
-Ao longo do curso, trabalhei com diversas tecnologias, incluindo:  
-- **Linguagens de Programação:** Python, Java, JavaScript, C, HTML/CSS, C++  
+Ao longo de 2025, trabalhei com diversas tecnologias, incluindo:  
+- **Linguagens de Programação:** Kotlein, Java, JavaScript, C, HTML/CSS, C++  
 - **Banco de Dados:** MySQL, MongoDB  
 - **Frameworks e Ferramentas:** React, Node.js, Bootstrap  
 
