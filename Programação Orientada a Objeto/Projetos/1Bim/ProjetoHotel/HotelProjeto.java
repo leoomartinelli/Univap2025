@@ -1,9 +1,7 @@
-package hotelprojeto;
-
-
+package Hotel;
 import java.util.Scanner;
 
-public class HotelProjeto {
+public class Hotel {
 
     public static void main(String[] args) {
         String[] hospedes = new String[100]; 
@@ -36,7 +34,7 @@ public class HotelProjeto {
                         String nomeHospede = scanner.nextLine();
                         hospedes[numeroQuartoReserva - 1] = nomeHospede;
                         statusQuartos[numeroQuartoReserva - 1] = true;
-                        System.out.println("Reserva realizada com sucesso.");
+                        System.out.println("Reserva realizada do(a) " + nomeHospede + ", no quarto: " + numeroQuartoReserva);
                     }
                             
                     break;
@@ -96,6 +94,7 @@ public class HotelProjeto {
                 case 5:
                    System.out.print("Digite o número do quarto para editar(1-100): ");
                     int numeroQuartoEditar = scanner.nextInt();
+                    scanner.nextLine();
                     if (numeroQuartoEditar < 1 || numeroQuartoEditar > 100) {
                         System.out.println("Número de quarto inválido.");
                     } else {
@@ -103,7 +102,7 @@ public class HotelProjeto {
                         String nomeHospede = scanner.nextLine();
                         hospedes[numeroQuartoEditar - 1] = nomeHospede;
                         statusQuartos[numeroQuartoEditar - 1] = true;
-                        System.out.println("EDiçãorealizada com sucesso.");
+                        System.out.println("Edição realizada com sucesso...\n Novo nome: " + nomeHospede);
                     }
                     break;
                 case 0:
